@@ -2,75 +2,41 @@
 
 * {
     box-sizing: border-box;
-    margin: 0px;
     padding: 0px;
-}
-
-html {
-    scroll-behavior: smooth;
+    margin: 0px;
 }
 
 body {
     font-family: "Roboto", sans-serif;
     font-size: 1.5rem;
-    min-height: 200vh;
+    margin: 10px;
 }
 
-.blue {
-    background-color: blue;
+.block {
+    height: 30vw;
+    width: 30vw;
+    background-color: #000;
+    color: white;
+    padding: 1rem;
 }
 
-.red {
-    background-color: red;
+.left {
+    float: left;
+    margin-right: 1rem;
 }
 
-.green {
-    background-color: green;
+.right {
+    float: right;
+    margin-left: 1rem;
 }
 
-header, footer {
-    text-align: center;
-    color: #fff;
-    height: 100px;
+.clear {
+    clear: both;
 }
 
 section {
-    height: 100vh;
-}
-
-header {
-    font-size: 5rem;
-    padding: 0;
-    top: 0;
-    position: sticky;
-}
-
-footer {
-    background-color: #000;
-    position: sticky;
-    bottom: 0;
-    font-size: 3rem;
-}
-
-h2 {
-    color: black;
-    position: sticky;
-    top: 100px;
-    text-align: center;
-}
-
-a:visited, a {
-    color:aliceblue;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.social {
-    cursor: pointer;
-    font-size: inherit;
+    background-color: pink;
     padding: 1rem;
-    background-color: blue;
-    position: fixed;
-    top: 150px;
-    z-index: 1;
+    border: 1px solid black;
+    display: flow-root;
 }
